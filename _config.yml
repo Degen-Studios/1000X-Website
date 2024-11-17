@@ -2,8 +2,9 @@ title: 1000X Token
 description: >-
   It's just 1000X
 url: "https://just1000.xyz"
-
-
+sass:
+  style: compressed
+  sass_dir: _sass
 
 # Exclude from processing.
 # The following items will not be processed, by default.
