@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1000X Token</title>
+    <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+</head>
+<body class="loading">
+<div id="loading-screen">
+    <div class="loader"></div>
+</div>
+{% include header.html %}
+<div id="home" class="container">
+    {{ content }}
+</div>
+<script src="{{ '/assets/js/scroll.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/header.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/loader.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/hamburger.js' | relative_url }}"></script>
+
+</body>
+</html>
