@@ -72,7 +72,8 @@ PLATFORMS
 DEPENDENCIES
   base64
   csv
-  jekyll
+  jekyll (~> 4.3.2)
+  kramdown-parser-gfm
   webrick
 
 BUNDLED WITH
