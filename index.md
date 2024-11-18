@@ -8,11 +8,22 @@ layout: home
   <div class="socials-grid">
     <a href="https://t.me/Just1000X" target="_blank" rel="noopener noreferrer" class="social-button">
       <div class="social-icon">
-        <i class="fab fa-telegram-plane"></i> <span>Telegram</span>
+        <i class="fab fa-telegram-plane"></i>
       </div>
+      <span>Telegram</span>
+    </a>
+    <a href="https://x.com/1000XClanker" target="_blank" rel="noopener noreferrer" class="social-button">
+      <div class="social-icon twitter-icon">
+        <i class="fa-brands fa-x-twitter"></i>
+        <i class="fab fa-twitter"></i>
+      </div>
+      <span>X (formerly Twitter)</span>
     </a>
   </div>
 </section>
+
+
+
 
 
 <section id="about" class="section">

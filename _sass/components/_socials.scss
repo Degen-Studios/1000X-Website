@@ -1,3 +1,11 @@
+.socials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  margin: 2rem auto;
+  max-width: 600px;
+}
+
 .social-button {
   display: flex;
   flex-direction: column;
@@ -20,13 +28,47 @@
   .social-icon {
     width: 96px;
     height: 96px;
-    color: #007bff; // Adjust color as needed
+    color: #007bff;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 
     i {
-      font-size: 48px; // Adjust icon size as needed
+      font-size: 48px;
+      position: absolute;
+    }
+
+    .fa-x-twitter {
+      transform: rotate(0deg);
+      opacity: 1;
+    }
+
+    .fa-twitter {
+      transform: rotate(180deg);
+      opacity: 0;
+    }
+
+    &:hover {
+      .fa-x-twitter {
+        animation: xToTwitter 1s ease-in-out forwards;
+      }
+      .fa-twitter {
+        animation: twitterFromX 1s ease-in-out forwards;
+      }
+    }
+
+    &:not(:hover) {
+      .fa-twitter {
+        animation: twitterToX 1s ease-in-out forwards;
+      }
+      .fa-x-twitter {
+        animation: xFromTwitter 1s ease-in-out forwards;
+      }
     }
   }
+
 
   span {
     font-size: 1.2rem;
