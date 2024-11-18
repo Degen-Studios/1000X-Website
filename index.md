@@ -1,6 +1,20 @@
 ---
 layout: home
 ---
+
+
+<section id="socials" class="section">
+  <h2>Socials</h2>
+  <div class="socials-grid">
+    <a href="https://t.me/Just1000X" target="_blank" rel="noopener noreferrer" class="social-button">
+      <div class="social-icon">
+        <i class="fab fa-telegram-plane"></i> <span>Telegram</span>
+      </div>
+    </a>
+  </div>
+</section>
+
+
 <section id="about" class="section">
   <h2>About 1000X</h2>
   <p>We aim for the clouds, the moon, Mars, alpha centauri, and beyond!</p>
@@ -22,6 +36,8 @@ layout: home
     </a>
   </div>
 </section>
+
+
 <section id="tokenomics" class="section">
   <h2>Tokenomics</h2>
   <div class="tokenomics-grid">
@@ -31,6 +47,8 @@ layout: home
     </div>
   </div>
 </section>
+
+
 <section id="charts" class="section">
   <style>#dexscreener-embed{position:relative;width:100%;padding-bottom:125%;}@media(min-width:1400px){#dexscreener-embed{padding-bottom:65%;}}#dexscreener-embed iframe{position:absolute;width:100%;height:100%;top:0;left:0;border:0;}</style><div id="dexscreener-embed"><iframe src="https://dexscreener.com/base/0x903B8Cb16a36b7d9B81a18A564C2b470e889E5B2?embed=1&theme=dark&trades=0&info=0"></iframe></div>
   <div class="exchange-grid">
@@ -49,28 +67,5 @@ layout: home
   </div>
 </section>
 
-[//]: # (<section id="roadmap" class="section">)
 
-[//]: # (  <h2>Roadmap</h2>)
 
-[//]: # (  <div class="timeline">)
-
-[//]: # (    <div class="milestone">)
-
-[//]: # (      <h3>Phase 1</h3>)
-
-[//]: # (      <p>Build a Road</p>)
-
-[//]: # (    </div>)
-
-[//]: # (    <div class="milestone">)
-
-[//]: # (      <h3>Phase 2</h3>)
-
-[//]: # (      <p>Make a Map</p>)
-
-[//]: # (    </div>)
-
-[//]: # (  </div>)
-
-[//]: # (</section>)

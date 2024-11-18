@@ -1,0 +1,164 @@
+// Small mobile devices
+@media (max-width: 480px) {
+  .header-content {
+    padding: 0.5rem 1rem;
+  }
+
+  .logo {
+    .header-icon {
+      width: 24px;
+      height: 24px;
+    }
+    span {
+      font-size: 1.2rem;
+    }
+  }
+
+  .hero {
+    padding: 3rem 1rem 2rem;
+
+    h1 { font-size: 2rem; }
+    .tagline { font-size: 1.2rem; }
+    .hero-banner { border-radius: 8px; }
+    p { font-size: 0.9rem; }
+  }
+
+  .section {
+    padding: 2rem 1rem;
+    h2 {
+      font-size: 1.75rem;
+      text-align: center;
+    }
+  }
+
+  .stat-box {
+    padding: 1rem;
+    h3 { font-size: 1rem; }
+    p { font-size: 1.25rem; }
+  }
+
+  .exchange-button {
+    padding: 1.5rem;
+    .exchange-icon {
+      width: 72px;
+      height: 72px;
+    }
+  }
+
+  #dexscreener-embed {
+    margin: 0 -1rem;
+    border-radius: 0;
+  }
+}
+
+// Mobile and tablet
+@media (max-width: 768px) {
+  .container {
+    padding: 3rem 1rem 1rem;
+  }
+
+  .header-content {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    justify-content: space-between;
+  }
+
+  .hamburger {
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 1001;
+
+    &.active {
+      span:nth-child(1) {
+        transform: rotate(45deg) translate(8px, 6px);
+      }
+      span:nth-child(2) {
+        opacity: 0;
+      }
+      span:nth-child(3) {
+        transform: rotate(-45deg) translate(7px, -5px);
+      }
+    }
+  }
+
+  .main-nav {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.95);
+    backdrop-filter: blur(10px);
+    flex-direction: column;
+    justify-content: center;
+    transition: right 0.3s ease;
+    z-index: 1000;
+    gap: 1rem;
+
+    &.active {
+      right: 0;
+    }
+
+    a {
+      width: 100%;
+      text-align: center;
+    }
+  }
+
+  .exchange-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .tokenomics-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .timeline .milestone {
+    padding-left: 1.5rem;
+  }
+
+  .hero {
+    padding: 4rem 0 2rem;
+    .hero-banner {
+      max-height: 300px;
+    }
+    h1 {
+      font-size: 2.5rem;
+    }
+  }
+}
+
+// Larger tablets and medium screens
+@media (max-width: 1024px) {
+  .header-content {
+    padding: 0 1rem;
+  }
+
+  .exchange-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+// Large screens
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1200px;
+  }
+
+  .hero {
+    .hero-banner {
+      max-height: 500px;
+    }
+    h1 {
+      font-size: 4rem;
+    }
+  }
+
+  .exchange-grid {
+    max-width: 800px;
+  }
+}

@@ -3,6 +3,9 @@ layout: default
 ---
 <section class="hero">
     <picture>
+        <div id="loading-screen">
+            <img src="{{ '/assets/images/1000X_Hero.webp' | relative_url }}" alt="Loading" class="loader-image">
+        </div>
         <source srcset="{{ '/assets/images/1000X_Hero.webp' | relative_url }}" type="image/webp">
         <source srcset="{{ '/assets/images/1000X_Hero.jpg' | relative_url }}" type="image/jpeg">
         <img src="{{ '/assets/images/1000X_Hero.png' | relative_url }}" alt="1000X Hero Banner" class="hero-banner">
@@ -12,13 +15,14 @@ layout: default
     <p>CA: 0x397af86a35288f7a219febaab34f9b947d4d772d</p>
     <p><a href="https://basescan.org/address/0x397af86a35288f7a219febaab34f9b947d4d772d" target="_blank">BaseScan</a></p>
 </section>
+
 <main>
     {{ content }}
 </main>
 <nav class="main-nav">
     <a href="#home">Home</a>
+    <a href="#socials">Socials</a>
     <a href="#about">About</a>
     <a href="#tokenomics">Tokenomics</a>
     <a href="#charts">Charts</a>
-<!--    <a href="#roadmap">Roadmap</a>-->
 </nav>
