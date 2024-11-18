@@ -1,8 +1,6 @@
 ---
 layout: home
 ---
-
-
 <section id="socials" class="section">
   <h2>Socials</h2>
   <div class="socials-grid">
@@ -21,10 +19,6 @@ layout: home
     </a>
   </div>
 </section>
-
-
-
-
 
 <section id="about" class="section">
   <h2>About 1000X</h2>
