@@ -5,15 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>1000X Token</title>
     <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body class="loading">
-<div id="loading-screen">
-    <div class="loader"></div>
-</div>
 <header class="main-header">
     <div class="header-content">
         <div class="logo">
-            <img src="/assets/images/1000X_Icon.webp" alt="1000X Icon" class="header-icon">
             <span>1000X</span>
         </div>
         <button class="hamburger" aria-label="Menu">
@@ -23,6 +20,7 @@
         </button>
         <nav class="main-nav">
             <a href="#home">Home</a>
+            <a href="#socials">Socials</a>
             <a href="#about">About</a>
             <a href="#tokenomics">Tokenomics</a>
             <a href="#charts">Charts</a>
@@ -33,6 +31,9 @@
 <div id="home" class="container">
     <section class="hero">
     <picture>
+        <div id="loading-screen">
+            <img src="/assets/images/1000X_Hero.webp" alt="Loading" class="loader-image">
+        </div>
         <source srcset="/assets/images/1000X_Hero.webp" type="image/webp">
         <source srcset="/assets/images/1000X_Hero.jpg" type="image/jpeg">
         <img src="/assets/images/1000X_Hero.png" alt="1000X Hero Banner" class="hero-banner">
@@ -42,8 +43,20 @@
     <p>CA: 0x397af86a35288f7a219febaab34f9b947d4d772d</p>
     <p><a href="https://basescan.org/address/0x397af86a35288f7a219febaab34f9b947d4d772d" target="_blank">BaseScan</a></p>
 </section>
+
 <main>
-    <section id="about" class="section">
+    <section id="socials" class="section">
+  <h2>Socials</h2>
+  <div class="socials-grid">
+    <a href="https://t.me/Just1000X" target="_blank" rel="noopener noreferrer" class="social-button">
+      <div class="social-icon">
+        <i class="fab fa-telegram-plane"></i> <span>Telegram</span>
+      </div>
+    </a>
+  </div>
+</section>
+
+<section id="about" class="section">
   <h2>About 1000X</h2>
   <p>We aim for the clouds, the moon, Mars, alpha centauri, and beyond!</p>
 </section>
@@ -78,6 +91,7 @@
     </a>
   </div>
 </section>
+
 <section id="tokenomics" class="section">
   <h2>Tokenomics</h2>
   <div class="tokenomics-grid">
@@ -87,6 +101,7 @@
     </div>
   </div>
 </section>
+
 <section id="charts" class="section">
   <style>#dexscreener-embed{position:relative;width:100%;padding-bottom:125%;}@media(min-width:1400px){#dexscreener-embed{padding-bottom:65%;}}#dexscreener-embed iframe{position:absolute;width:100%;height:100%;top:0;left:0;border:0;}</style><div id="dexscreener-embed"><iframe src="https://dexscreener.com/base/0x903B8Cb16a36b7d9B81a18A564C2b470e889E5B2?embed=1&amp;theme=dark&amp;trades=0&amp;info=0"></iframe></div>
   <div class="exchange-grid">
@@ -169,10 +184,10 @@
 </main>
 <nav class="main-nav">
     <a href="#home">Home</a>
+    <a href="#socials">Socials</a>
     <a href="#about">About</a>
     <a href="#tokenomics">Tokenomics</a>
     <a href="#charts">Charts</a>
-<!--    <a href="#roadmap">Roadmap</a>-->
 </nav>
 </div>
 <script src="/assets/js/scroll.js"></script>
