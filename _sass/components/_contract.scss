@@ -1,0 +1,25 @@
+.contract-address {
+  display: inline-block;
+  transition: all 0.3s ease;
+  position: relative;
+  cursor: pointer;
+
+  &:hover {
+    animation: addressShake 0.5s infinite;
+    text-shadow:
+            -1px 1px 0 #00a2ff,
+            1px -1px 0 #fe04f5;
+  }
+}
+
+.contract-tooltip {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  pointer-events: none;
+  z-index: 1000;
+  transition: all 0.1s ease;
+}

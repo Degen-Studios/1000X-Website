@@ -1,0 +1,8 @@
+.contract-address {
+  &:hover {
+    animation: addressShake 0.5s infinite;
+    text-shadow:
+            -1px 1px 0 #00a2ff,
+            1px -1px 0 #fe04f5;
+  }
+}

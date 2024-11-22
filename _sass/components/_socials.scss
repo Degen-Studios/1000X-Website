@@ -57,6 +57,10 @@
       .fa-twitter {
         animation: twitterFromX 1s ease-in-out forwards;
       }
+      .fa-telegram-plane {
+        animation: telegramTakeoff 1s ease-in-out forwards,
+        telegramLand 1s ease-in-out 1s forwards;
+      }
     }
 
     &:not(:hover) {
@@ -68,7 +72,6 @@
       }
     }
   }
-
 
   span {
     font-size: 1.2rem;
