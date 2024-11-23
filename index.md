@@ -47,7 +47,7 @@ layout: home
   <div class="tokenomics-grid">
     <div class="stat-box supply-animation">
       <h3>Total Supply</h3>
-      <p class="supply-text">1 Million</p>
+      <p class="supply-text">1,000,000</p>
     </div>
   </div>
 </section>
