@@ -42,13 +42,12 @@ layout: home
   </div>
 </section>
 
-
 <section id="tokenomics" class="section">
   <h2>Tokenomics</h2>
   <div class="tokenomics-grid">
-    <div class="stat-box">
+    <div class="stat-box supply-animation">
       <h3>Total Supply</h3>
-      <p>1,000,000,000</p>
+      <p class="supply-text">1 Million</p>
     </div>
   </div>
 </section>

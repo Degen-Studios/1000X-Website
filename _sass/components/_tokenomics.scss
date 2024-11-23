@@ -1,0 +1,21 @@
+.supply-animation {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.supply-text {
+  display: inline-block;
+  transition: all 0.3s ease;
+  position: relative;
+  cursor: pointer;
+}
+
+.supply-text.transforming {
+  animation: supplyShake 0.82s cubic-bezier(.36,.07,.19,.97) both infinite;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+  text-shadow:
+          -1px 1px 0 #00a2ff,
+          1px -1px 0 #fe04f5;
+}
