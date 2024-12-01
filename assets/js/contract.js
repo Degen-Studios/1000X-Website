@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const contractAddress = document.querySelector('.contract-address');
-
+    
     if (contractAddress) {
         const updateTooltipPosition = (e, tooltip) => {
             const tooltipWidth = tooltip.offsetWidth;
@@ -34,10 +34,11 @@ document.addEventListener('DOMContentLoaded', () => {
         contractAddress.addEventListener('click', (e) => {
             const tooltip = document.querySelector('.contract-tooltip');
             navigator.clipboard.writeText(contractAddress.textContent.trim());
+            
             if (tooltip) {
                 tooltip.textContent = 'Copied';
                 updateTooltipPosition(e, tooltip);
-
+                
                 setTimeout(() => {
                     if (tooltip && document.contains(tooltip)) {
                         tooltip.textContent = 'Click to Copy';
