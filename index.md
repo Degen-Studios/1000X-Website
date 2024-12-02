@@ -5,18 +5,18 @@ layout: home
 <section id="socials" class="section">
     <h2>Socials</h2>
     <div class="socials-grid">
-        <a href="https://twitter.com/1000XonBase" target="_blank" class="social-button">
+        <a href="https://t.me/Just1000X" target="_blank" class="social-button">
+            <div class="social-icon">
+                <i class="fab fa-telegram-plane"></i>
+            </div>
+            <span>Telegram</span>
+        </a>        
+        <a href="https://twitter.com/1000xClanker" target="_blank" class="social-button">
             <div class="social-icon">
                 <i class="fa-brands fa-x-twitter"></i>
                 <i class="fab fa-twitter"></i>
             </div>
             <span>Twitter</span>
-        </a>
-        <a href="https://t.me/X1000onBASE" target="_blank" class="social-button">
-            <div class="social-icon">
-                <i class="fab fa-telegram-plane"></i>
-            </div>
-            <span>Telegram</span>
         </a>
     </div>
 </section>
@@ -94,6 +94,36 @@ layout: home
                 {% include dextools.svg %}
             </div>
             <span>DexTools</span>
+        </a>
+    </div>
+</section>
+
+<section id="explorers" class="section">
+    <h2>Block Explorers</h2>
+    <div class="explorer-grid">
+        <a href="https://basescan.org/token/0x397af86a35288f7a219febaab34f9b947d4d772d" target="_blank" class="exchange-button">
+            <div class="exchange-icon">
+                {% include basescan.svg %}
+            </div>
+            <span>BaseScan</span>
+        </a>
+        <a href="https://base.blockscout.com/token/0x397af86a35288f7A219febAab34F9b947d4d772D" target="_blank" class="exchange-button">
+            <div class="exchange-icon">
+                {% include blockscout.svg %}
+            </div>
+            <span>BlockScout</span>
+        </a>
+        <a href="https://www.oklink.com/base/token/0x397af86a35288f7a219febaab34f9b947d4d772d" target="_blank" class="exchange-button">
+            <div class="exchange-icon">
+                {% include oklink.svg %}
+            </div>
+            <span>OKLink</span>
+        </a>
+        <a href="https://base.l2scan.co/token/0x397af86a35288f7A219febAab34F9b947d4d772D" target="_blank" class="exchange-button">
+            <div class="exchange-icon">
+                {% include l2scan.svg %}
+            </div>
+            <span>L2Scan</span>
         </a>
     </div>
 </section>
