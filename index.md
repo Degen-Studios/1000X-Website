@@ -79,7 +79,7 @@ layout: home
     <div class="charts-grid">
         <a href="https://www.geckoterminal.com/base/pools/0x903b8cb16a36b7d9b81a18a564c2b470e889e5b2" target="_blank" class="exchange-button">
             <div class="exchange-icon">
-                <img src="{{ '/assets/images/geckoterminal.png' | relative_url }}" alt="GeckoTerminal" width="96" height="96">
+                {% include geckoterminal.svg %}
             </div>
             <span>GeckoTerminal</span>
         </a>
