@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 document.querySelectorAll('.container, .main-header, .main-nav, .section').forEach(el => {
                     el.style.visibility = 'visible';
                 });
-            }, 500);
+            }, 1);
         }
     }
 
