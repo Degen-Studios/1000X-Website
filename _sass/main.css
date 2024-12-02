@@ -753,6 +753,18 @@ body.loading {
   color: var(--text-color);
 }
 
+body.loading {
+  overflow: hidden;
+}
+body.loading #home,
+body.loading .main-nav,
+body.loading .section {
+  visibility: hidden;
+}
+body.loading #loading-screen {
+  visibility: visible;
+}
+
 #loading-screen {
   position: fixed;
   left: 0;
@@ -894,6 +906,78 @@ a:hover {
   backface-visibility: hidden;
   perspective: 1000px;
   text-shadow: -1px 1px 0 #00a2ff, 1px -1px 0 #fe04f5;
+}
+
+#dexscreener-embed {
+  position: relative;
+  width: 100%;
+  padding-bottom: 125%;
+}
+@media (min-width: 1400px) {
+  #dexscreener-embed {
+    padding-bottom: 65%;
+  }
+}
+#dexscreener-embed iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border: 0;
+}
+
+.charts-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin: 2rem auto;
+  max-width: 900px;
+}
+
+.chart-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.chart-tab {
+  padding: 0.5rem 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: var(--text-color);
+}
+.chart-tab.active {
+  background: var(--primary-color);
+  color: var(--background-color);
+}
+
+.chart-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 125%;
+}
+@media (min-width: 1400px) {
+  .chart-container {
+    padding-bottom: 65%;
+  }
+}
+
+.chart-frame {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border: 0;
+  display: none;
+}
+.chart-frame.active {
+  display: block;
 }
 
 /*# sourceMappingURL=main.css.map */

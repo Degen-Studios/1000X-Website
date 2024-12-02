@@ -1,3 +1,19 @@
+body.loading {
+  overflow: hidden;
+
+  #home,
+  .main-nav,
+  .section {
+    visibility: hidden;
+  }
+
+  #loading-screen {
+    visibility: visible;
+  }
+}
+
+
+
 #loading-screen {
   position: fixed;
   left: 0;

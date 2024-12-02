@@ -20,11 +20,17 @@ document.addEventListener('DOMContentLoaded', () => {
         if (document.readyState === 'complete' && imageLoaded) {
             document.body.classList.remove('loading');
             document.getElementById('loading-screen').style.opacity = '0';
+
+            // Make content visible after loading screen fades
             setTimeout(() => {
                 document.getElementById('loading-screen').style.display = 'none';
+                document.querySelectorAll('.container, .main-header, .main-nav, .section').forEach(el => {
+                    el.style.visibility = 'visible';
+                });
             }, 500);
         }
     }
+
 
     window.addEventListener('load', checkAllLoaded);
 });
