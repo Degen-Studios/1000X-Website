@@ -55,11 +55,35 @@ layout: home
             </div>
             <span>Uniswap</span>
         </a>
+        <a href="https://aerodrome.finance/swap?from=eth&to=0x397af86a35288f7a219febaab34f9b947d4d772d" target="_blank" class="exchange-button">
+            <div class="exchange-icon">
+                {% include aerodrome.svg %}
+            </div>
+            <span>Aerodrome</span>
+        </a>
         <a href="https://matcha.xyz/tokens/base/0x397af86a35288f7a219febaab34f9b947d4d772d" target="_blank" class="exchange-button">
             <div class="exchange-icon">
                 {% include matcha.svg %}
             </div>
             <span>Matcha</span>
+        </a>
+        <a href="https://www.okx.com/web3/dex-swap?inputChain=8453&inputCurrency=0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee&outputChain=8453&outputCurrency=0x397af86a35288f7a219febaab34f9b947d4d772d" target="_blank" class="exchange-button">
+            <div class="exchange-icon">
+                {% include oklink.svg %}
+            </div>
+            <span>OKX</span>
+        </a>
+        <a href="https://kyberswap.com/swap/base/eth-to-0x397af86a35288f7a219febaab34f9b947d4d772d" target="_blank" class="exchange-button">
+            <div class="exchange-icon">
+                {% include kyberswap.svg %}
+            </div>
+            <span>KyberSwap</span>
+        </a>
+        <a href="https://www.dackieswap.xyz/swap?chain=base&outputCurrency=0x397af86a35288f7A219febAab34F9b947d4d772D" target="_blank" class="exchange-button">
+            <div class="exchange-icon">
+                {% include dackieswap.svg %}
+            </div>
+            <span>DackieSwap</span>
         </a>
     </div>
 </section>
